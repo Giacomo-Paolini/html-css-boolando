@@ -2,4 +2,61 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* CONDIVISI */
+
+.boxed {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.row-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a-header {
+    color: white;
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+.h5 {
+    height: 5em;
+}
+
+.margin-left-icon {
+    margin-left: 0.7em;
+}
+
+.margin-right-link {
+    margin-right: 0.5em;
+}
+
+/* HEADER */
+
+header {
+    /* position: fixed; */
+    min-height: 4em;
+    background-color: #FF6900;
+    box-shadow: 0 8px 9.5px 5px #dddddd;
+}
+
+nav {
+    position: relative;
+    min-height: 4em;
+}
+
+.logo {
+    width: 6em;
+    margin-right: 60px;
 }
