@@ -49,7 +49,7 @@ main {
 
 .container {
     width: 27em;
-    min-height: 40.5em;
+    min-height: 39.5em;
 }
 
 .relative {
@@ -130,7 +130,7 @@ nav {
     padding: 0.1em;
     text-align: center;
     left: 0;
-    bottom: 6em;
+    bottom: 7em;
     background-color: red;
 }
 
@@ -139,7 +139,7 @@ nav {
     width: 6em;
     padding: 0.1em;
     text-align: center;
-    bottom: 6em;
+    bottom: 7em;
     left: 3.5em;
     background-color: green;
 }
