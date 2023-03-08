@@ -110,43 +110,85 @@ nav {
 
 /* MAIN */
 
-#item1 {
+.item1 {
     background-image: url(../img/1.webp);
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
 }
 
-#item2 {
+.item1:hover {
+    background-image: url(../img/1b.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.item2 {
     background-image: url(../img/2.webp);
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
 }
 
-#item3 {
+.item2:hover {
+    background-image: url(../img/2b.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.item3 {
     background-image: url(../img/3.webp);
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
 }
 
-#item4 {
+.item3:hover {
+        background-image: url(../img/3b.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: block;
+}
+
+.item4 {
     background-image: url(../img/4.webp);
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
 }
 
-#item5 {
+.item4:hover {
+    background-image: url(../img/4b.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.item5 {
     background-image: url(../img/5.webp);
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
 }
 
-#item6 {
+.item5:hover {
+    background-image: url(../img/5b.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.item6 {
     background-image: url(../img/6.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.item6:hover {
+    background-image: url(../img/6b.webp);
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
@@ -191,6 +233,10 @@ nav {
     font-size: 30px;
     width: 50px;
     height: 50px;
+}
+
+.heart:hover {
+    color: red;
 }
 
 .name-product {
