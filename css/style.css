@@ -21,6 +21,10 @@
     align-items: center;
 }
 
+.gap {
+    gap: 1em;
+}
+
 .a-header {
     color: white;
     text-decoration: none;
@@ -45,7 +49,7 @@ main {
 
 .container {
     width: 27em;
-    height: 39em;
+    min-height: 40.5em;
 }
 
 .relative {
@@ -106,13 +110,27 @@ nav {
     display: block;
 }
 
+#item2 {
+    background-image: url(../img/2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+#item3 {
+    background-image: url(../img/3.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
 .sale {
     position: absolute;
     width: 3.2em;
     padding: 0.1em;
     text-align: center;
     left: 0;
-    bottom: 2.5em;
+    bottom: 6em;
     background-color: red;
 }
 
@@ -121,7 +139,7 @@ nav {
     width: 6em;
     padding: 0.1em;
     text-align: center;
-    bottom: 2.5em;
+    bottom: 6em;
     left: 3.5em;
     background-color: green;
 }
@@ -135,4 +153,9 @@ nav {
     font-size: 30px;
     width: 50px;
     height: 50px;
+}
+
+.name-product {
+    position: absolute;
+    bottom: 0;
 }
