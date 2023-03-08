@@ -25,6 +25,10 @@
     gap: 1em;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .a-header {
     color: white;
     text-decoration: none;
@@ -48,7 +52,7 @@ main {
 }
 
 .container {
-    width: 27em;
+    width: 24em;
     min-height: 39.5em;
 }
 
@@ -94,6 +98,10 @@ nav {
 
 .margin-right-link {
     margin-right: 0.5em;
+}
+
+.margin-bottom {
+    margin-bottom: 2em;
 }
 
 .logo {
@@ -157,5 +165,5 @@ nav {
 
 .name-product {
     position: absolute;
-    bottom: 0;
+    bottom: 0.5em;
 }
