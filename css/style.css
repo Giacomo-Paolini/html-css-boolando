@@ -76,11 +76,20 @@ h5 {
     text-decoration: line-through;
 }
 
+body {
+    padding-top: 4em;
+    padding-bottom: 7em;
+}
+
 
 /* HEADER */
 
 header {
-    /* position: fixed; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
     min-height: 4em;
     background-color: #FF6900;
     box-shadow: 0 8px 9.5px 5px #dddddd;
@@ -245,6 +254,11 @@ nav {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
     height: 7em;
     background-color: black;
 }
