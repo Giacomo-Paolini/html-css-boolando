@@ -30,6 +30,10 @@
     color: white;
 }
 
+.red {
+    color: red;
+}
+
 main {
     position: relative;
 }
@@ -41,11 +45,28 @@ main {
 
 .container {
     width: 27em;
-    height: 40em;
+    height: 39em;
 }
 
 .relative {
     position: relative;
+}
+
+span {
+    font-size: small;
+}
+
+h3 {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+h5 {
+    display: inline-block;
+}
+
+.line-through {
+    text-decoration: line-through;
 }
 
 
