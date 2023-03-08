@@ -47,8 +47,7 @@ main {
 }
 
 .container-position {
-    position: absolute;
-    top: 3.75em;
+    margin-top: 3.75em;
 }
 
 .container {
