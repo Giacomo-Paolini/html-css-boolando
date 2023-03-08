@@ -132,6 +132,27 @@ nav {
     display: block;
 }
 
+#item4 {
+    background-image: url(../img/4.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+#item5 {
+    background-image: url(../img/5.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+#item6 {
+    background-image: url(../img/6.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
 .sale {
     position: absolute;
     width: 3.2em;
@@ -149,6 +170,16 @@ nav {
     text-align: center;
     bottom: 7em;
     left: 3.5em;
+    background-color: green;
+}
+
+.eco-start {
+    position: absolute;
+    width: 6em;
+    padding: 0.1em;
+    text-align: center;
+    bottom: 7em;
+    left: 0;
     background-color: green;
 }
 
