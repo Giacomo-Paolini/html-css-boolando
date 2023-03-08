@@ -197,3 +197,16 @@ nav {
     position: absolute;
     bottom: 0.5em;
 }
+
+footer {
+    height: 7em;
+    background-color: black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h7 {
+    height: 7em;
+}
